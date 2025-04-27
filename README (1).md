@@ -3,7 +3,7 @@
 
 # 🧠 AI-Powered Resume Builder & Job Finder 🚀
 
-An intelligent platform that helps users create optimized resumes and matches them with the best-fit job opportunities — powered by **Groq** for blazing-fast AI inference and **Fluvio Tracks** for real-time data streaming.
+An intelligent platform that helps users create optimized resumes and matches them with the best-fit job opportunities — powered by **Groq** for blazing-fast AI inference.
 
 ## Problem statement
 Problem statement 1-Weave AI magic with Groq
@@ -21,7 +21,6 @@ This project combines the power of AI and real-time data to streamline the job s
 ## 🛠️ Built With
 
 - **Groq** – Ultra-low latency AI inference engine for real-time resume generation and language tasks
-- **Fluvio Tracks** – High-performance event streaming platform to deliver live job feeds and notifications
 - **Node.js / Express** – Backend REST API
 - **React** – Frontend UI with real-time interactivity
 - **MongoDB** – Stores user profiles and resume data
@@ -49,7 +48,6 @@ This project combines the power of AI and real-time data to streamline the job s
 
 - Node.js ≥ 18
 - Groq API access
-- Fluvio CLI installed and configured
 - MongoDB instance (local or Atlas)
 
 
@@ -71,6 +69,8 @@ This project combines the power of AI and real-time data to streamline the job s
 To deploy this project run
 
 ```bash
-  npm run deploy
+  npm install
+  npm run build
+  npm run dev
 ```
 
